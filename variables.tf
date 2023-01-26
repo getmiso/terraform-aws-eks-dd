@@ -12,7 +12,7 @@ variable "helm_create_namespace" {
 
 variable "helm_chart_name" {
   type        = string
-  default     = "datadog/datadog-operator"
+  default     = "datadog-operator"
   description = "Helm chart name to be installed"
 }
 
